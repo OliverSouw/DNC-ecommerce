@@ -1,0 +1,17 @@
+@use '../../sass/variables' as *;
+
+.footer {
+    background-color: $blue-dnc;
+    display: flex;
+    align-items: center;
+    height: 135px;
+    color: $white;
+    gap: 50px;
+    padding: 50px;
+    font-size: 18px;
+    font-weight: 400;
+
+    img {
+        padding-bottom: 35px;
+    }
+}

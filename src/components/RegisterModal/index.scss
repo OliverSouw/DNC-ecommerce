@@ -1,0 +1,94 @@
+@use "../../sass/variables" as *;
+
+.register-modal {
+    background-color: $bg-modal;
+    position: absolute;
+    width: 100vw;
+    height: 100vh; 
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   &__card-modal {
+    background-color: $white-dnc;
+    width: 1267px;
+    height: 919px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+   }
+
+   img {
+    width: 330px;
+    height: 255px;
+    margin-top: 200px;
+   }
+
+   &__product-info {
+    padding-top: 160px;
+    display: flex;
+    flex-direction: column;
+   }
+
+   h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: $blue-dnc;
+    margin-bottom: 20px;
+   }
+
+   h2 {
+    font-size: 40px;
+    font-weight: 400;
+    color: $black-dnc;
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid $blue-dnc;
+   }
+
+   &__price {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+   }
+
+   &__color-name {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+   }
+
+   &__color {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 80px;
+   }
+
+   &__button-continue {
+    width: 439px;
+    height: 63px;
+    background-color: $blue-dnc;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    cursor: pointer;
+   }
+
+   &__button-finished {
+    width: 439px;
+    height: 63px;
+    background-color: #676767;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+   }
+}

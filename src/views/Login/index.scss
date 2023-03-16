@@ -1,0 +1,94 @@
+@use '../../sass/variables' as *;
+
+.login {
+    height: 100vh;
+
+    &__header {
+        background-color: $black-dnc;
+        height: 157px;
+        display: flex;
+        align-items: center;
+        padding-left: 50px;
+
+        img {
+            width: 164px;
+            height: 81px;
+        }
+    }
+
+    &__access {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: calc(100vh - 157px);
+    }
+
+    &__title {
+        text-align: center;
+
+
+        h2 {
+            font-size: 30px;
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 22px;
+            font-weight: 500;
+        }
+    }
+    
+    &__user {
+        min-width: 450px;
+        margin-top: 85px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    &__username {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__password {
+        display: flex;
+        flex-direction: column;
+    }
+
+    label {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    &__input {
+        height: 42px;
+        background: rgba(255, 255, 255, 0.9);
+        border: 2px solid #7A7A7A;
+        border-radius: 10px;
+        font-size: 14px;
+        font-weight: 400;
+        padding-left: 15px;
+        margin-top: 15px;
+    }
+
+    &__send {
+        width: 450px;
+        height: 42px;
+        background-color: $blue-dnc;
+        border: none;
+        border-radius: 10px;     
+        font-size: 18px;
+        font-weight: 800;
+        margin-top: 15px;
+        cursor: pointer;
+    }
+
+    a {
+        color: $white;
+        text-decoration: none;
+    }
+
+}

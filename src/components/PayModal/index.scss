@@ -1,0 +1,84 @@
+@use "../../sass/variables" as *;
+
+.pay-modal {
+    background-color: $bg-modal;
+    position: absolute;
+    width: 100vw;
+    height: 100vh; 
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__card-modal {
+        background-color: $white-dnc;
+        width: 1267px;
+        height: 919px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+    }
+
+    &__info {
+        padding-top: 160px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 40px;
+        font-weight: 700;
+        color: $blue-dnc;
+        margin-bottom: 20px;
+    }
+
+    &__confirmation-inputs {
+        min-width: 500px;
+        margin-top: 15x;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    label {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    &__confirmation-input {
+        height: 50px;
+        background: rgba(255, 255, 255, 0.9);
+        border: 2px solid #7A7A7A;
+        border-radius: 10px;
+        font-size: 14px;
+        font-weight: 400;
+        padding-left: 15px;
+        margin-bottom: 15px;
+    }
+
+    &__container-btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    &__confirmation-send {
+        width: 400px;
+        height: 55px;
+        background-color: $blue-dnc;
+        border-radius: 10px;
+        border: none;
+        color: #fff;
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 30px;
+        cursor: pointer;
+    }
+
+    a {
+        color: $white;
+        text-decoration: none;
+    }
+}
