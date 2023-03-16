@@ -15,12 +15,12 @@ Instale projeto-ecommerce com npm
     
 ## Aprendizados
 
-Utilização do React para criação de sites. Implementação do SaSS nas estrutura CSS, configurações de Rotas com o Router e dimulassão de API com Mock
+Utilização do React para criação de sites. Implementação do SCSS nas estrutura CSS, configurações de Rotas com o Router e dimulassão de API com Mock
 
 
 ## Stack utilizada
 
-**Front-end:** React, SaSS, Router 
+**Front-end:** React, SCSS, Router 
 
 **Back-end:** Mock
 
