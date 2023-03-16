@@ -1,7 +1,7 @@
 
 # Projeto Ecommerce DNC
 
-Projeto de Ecommerce utilizando React e SASS!
+Projeto de Ecommerce utilizando React e SCSS!
 
 
 ## Instalação
